@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🌐 Web3 Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一個專為Web3初學者設計的學習平台，通過實際操作來探索區塊鏈和去中心化應用(DApp)的世界。
 
-## Available Scripts
+## ✨ 功能特色
 
-In the project directory, you can run:
+- 🔗 **錢包連接**: 支援MetaMask等主流錢包
+- 📊 **實時數據**: 顯示錢包餘額、網路狀態、區塊信息
+- 🧪 **測試網支援**: 支援Sepolia測試網，免費練習
+- 📚 **學習導向**: 內建學習指南和實用提示
+- ⚡ **現代技術棧**: React + Vite + Wagmi + ConnectKit
 
-### `npm start`
+## 🚀 快速開始
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. 安裝依賴
+```bash
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. 啟動開發服務器
+```bash
+npm start
+```
 
-### `npm test`
+### 3. 開啟瀏覽器
+訪問 [http://localhost:5173](http://localhost:5173)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ 技術棧
 
-### `npm run build`
+- **前端框架**: React 18
+- **建構工具**: Vite
+- **Web3庫**: Wagmi v2
+- **錢包連接**: ConnectKit
+- **狀態管理**: TanStack Query
+- **區塊鏈**: Ethereum、Sepolia測試網
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 學習路徑
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 基礎階段
+1. 連接MetaMask錢包
+2. 切換到Sepolia測試網
+3. 獲取測試ETH
+4. 查看錢包資訊
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 進階階段
+1. 智能合約互動
+2. 代幣轉帳功能
+3. NFT展示
+4. DeFi協議整合
 
-### `npm run eject`
+## 📖 學習資源
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [📋 完整學習指南](./WEB3_LEARNING_GUIDE.md)
+- [🔧 智能合約範例](./contracts/)
+- [💡 實用工具和資源](./WEB3_LEARNING_GUIDE.md#-學習資源)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 測試網資源
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Sepolia Faucet**: [sepoliafaucet.com](https://sepoliafaucet.com/)
+- **Sepolia Explorer**: [sepolia.etherscan.io](https://sepolia.etherscan.io/)
+- **Remix IDE**: [remix.ethereum.org](https://remix.ethereum.org/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 📄 授權
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MIT License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
